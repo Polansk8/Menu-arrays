@@ -837,28 +837,3 @@ void ordenaASeleccion (int a[], int v)
             }
         }
 }
-
-
-void inserta (int a[], int v, int dato)
-{
-    int aux = a[v];
-    int i = v-1;
-
-    while (i >= 0 && a[i] > a[i-1])
-        {
-        a[i+1] = a[i];
-        i--;
-        }
-}
-
-
-void ordenaAInsercion (int a[], int v)
-{
-    int i=0;
-    int j=0;
-    while(i<v-1)
-        {
-        inserta(a, i, a[i+1]);
-        i++;
-        }
-}
