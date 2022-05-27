@@ -46,7 +46,6 @@ char buscaMayorChar (char a[], int v);///8)
 int arrayCapicua (int a[], int v);///9)
 void invierteArray (int a[], int v);///10)
 void ordenaASeleccion (int a[], int v);///11)
-void ordenaAInsercion (int a[], int v);
 
 
 
@@ -103,7 +102,6 @@ int main()
         printf("\n>>>9)-Funcion que verifica si un array es capicua---------------");
         printf("\n>>>A)-Funcion que invierte un array-----------------------------");
         printf("\n>>>B)-Funcion que ordena un array por seleccion-----------------");
-        printf("\n>>>C)-Funcion que ordena un array por insercion-----------------");
         printf("\n");
         replicaChar('=', 64);
         opcion = getch();
